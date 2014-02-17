@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SemcPhone Patcher</string>
+    <string name="app_description">通話録音を有効にして、データ通信の注意ポップアップを無効化します。ここをタップすると設定が出来ます。</string>
+    <string name="label_dataw">データ通信の注意を無効化</string>
+    <string name="sum_dataw">データ通信を有効にしたときに表示される料金の注意ポップアップを出さないようにします。</string>
+    <string name="label_dataicon">データ通信無効時のアイコンを非表示</string>
+    <string name="sum_dataicon">データ通信を無効にしたときに出るアイコンを出さないようにします。</string>
+    <string name="label_dataiconon">データ通知の無効化(Z1向け)</string>
+    <string name="sum_dataiconon">データ通信オフ時の通知を無効化します。(Z1向け)</string>
+    <string name="label_dataiconona">データ通知の無効化(A向け)</string>
+    <string name="sum_dataiconona">データ通信オフ時の通知を無効化します。(A向け)</string>
+    <string name="label_callrec">通話録音の有効化</string>
+    <string name="sum_callrec">通話録音機能を使えるようにします。\n録音開始ボタンは通話中画面のメニューの中にあります。</string>
+    <string name="label_3guse">「3Gネットワークのみを使用」を表示</string>
+    <string name="sum_3guse">モバイルネットワーク設定に3Gのみを使うようにする設定を表示します。</string>
+    <string name="label_prefmode">ネットワークモード全開</string>
+    <string name="sum_prefmode">モバイルネットワーク設定でネットワークモードを全て表示するようにします。</string>
+    <string name="label_ansmach">伝言メモ機能の有効化</string>
+    <string name="sum_ansmach">伝言メモを使えるようにします。</string>
+    
+    <string name="label_prefmodeics">(ドコモ向け)ネットワークモード全開</string>
+    <string name="sum_prefmodeics">*ドコモROMでは上は有効にせずこちらだけ有効にしてください*\nモバイルネットワーク設定でネットワークモードを全て表示するようにします。</string>
+    
+    <string name="label_rebootaf">注意</string>
+    <string name="nosum">変更は再起動後に反映されます。\n一部機種によって動作しないことがあります。</string>
+    <string name="mesum">"@WedyDQ10"</string>
+</resources>

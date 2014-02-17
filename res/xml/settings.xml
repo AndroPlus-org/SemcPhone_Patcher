@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    	<Preference android:title="@string/label_rebootaf" android:key="mess" android:summary="@string/nosum" style="?android:preferenceInformationStyle" />
+	<CheckBoxPreference
+	    android:key="key_dataw"
+	    android:title="@string/label_dataw"
+	    android:summary="@string/sum_dataw"
+	    android:defaultValue="false" />
+	<CheckBoxPreference
+	    android:key="key_dataicon"
+	    android:title="@string/label_dataicon"
+	    android:summary="@string/sum_dataicon"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_dataiconon"
+	    android:title="@string/label_dataiconon"
+	    android:summary="@string/sum_dataiconon"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_dataiconona"
+	    android:title="@string/label_dataiconona"
+	    android:summary="@string/sum_dataiconona"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_callrec"
+	    android:title="@string/label_callrec"
+	    android:summary="@string/sum_callrec"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_ansmach"
+	    android:title="@string/label_ansmach"
+	    android:summary="@string/sum_ansmach"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_3guse"
+	    android:title="@string/label_3guse"
+	    android:summary="@string/sum_3guse"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_prefmode"
+	    android:title="@string/label_prefmode"
+	    android:summary="@string/sum_prefmode"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference android:key="key_prefmodeics" android:title="@string/label_prefmodeics" android:summary="@string/sum_prefmodeics" android:defaultValue="false" />
+	    
+	
+	<Preference android:key="mes" android:title="@string/app_name" android:summary="@string/mesum">
+            <intent android:action="android.intent.action.VIEW"
+             android:data="http://androplus.kagome-kagome.com/" />
+        </Preference>
+</PreferenceScreen>

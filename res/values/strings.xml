@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SemcPhone Patcher</string>
+    <string name="app_description">Enable call recording and disable data notification. Tap here to configure settings.</string>
+    <string name="label_dataw">Disable data charge warning</string>
+    <string name="sum_dataw">Disable data charge warning when you enable mobile data.</string>
+    <string name="label_dataiconon">Disable data off notify</string>
+    <string name="sum_dataiconon">Disable data notify when you disable mobile data.(For Z1)</string>
+    <string name="label_dataiconona">Disable data off notify</string>
+    <string name="sum_dataiconona">Disable data notify when you disable mobile data.(For A)</string>
+    <string name="label_dataicon">Hide icon on data disabled</string>
+    <string name="sum_dataicon">Hide statusbar icon and notification which appears when you disable mobile data.</string>
+    <string name="label_callrec">Enable call recording</string>
+    <string name="sum_callrec">Enable call recording future.\nRecording button is in the menu of calling screen.</string>
+    <string name="label_3guse">Show \"Use only 3G networks\"</string>
+    <string name="sum_3guse">Show preference to use 3G only in mobile data settings.</string>
+    <string name="label_prefmode">All network mode</string>
+    <string name="sum_prefmode">Show all network mode in mobile data settings.</string>
+    <string name="label_prefmodeics">(For DoCoMo)All network mode</string>
+    <string name="sum_prefmodeics">*Check this if you are using DoCoMo ROM*\nShow all network mode in mobile data settings.</string>
+    <string name="label_ansmach">Enable Answering Machine</string>
+    <string name="sum_ansmach">Enable Answering Machine future.</string>
+    
+    <string name="label_rebootaf">Note</string>
+    <string name="nosum">You may need to reboot for changes to take effect.</string>
+    <string name="mesum">"@WedyDQ10"</string>
+    
+    <string name="mar1">0,1,2,3,4,5,6,7,8,9,10,11</string>
+    <string name="mar2">0,1,2,3,4,5,6,7,8,9,10,11,12</string>
+</resources>
