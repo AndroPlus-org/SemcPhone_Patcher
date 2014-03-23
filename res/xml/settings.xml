@@ -32,6 +32,11 @@
 	    android:summary="@string/sum_ansmach"
 	    android:defaultValue="false" />
 	    <CheckBoxPreference
+	    android:key="key_callend"
+	    android:title="@string/label_callend"
+	    android:summary="@string/sum_callend"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
 	    android:key="key_3guse"
 	    android:title="@string/label_3guse"
 	    android:summary="@string/sum_3guse"

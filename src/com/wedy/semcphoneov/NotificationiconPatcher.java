@@ -57,6 +57,13 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 			resparam.res.setReplacement("com.android.phone", "bool", "enable_call_recording", true);
 
 		}
+		boolean isCallend = preference.getBoolean("key_callend", false);
+
+		if(isCallend){
+		
+			resparam.res.setReplacement("com.android.phone", "bool", "enable_call_ended_screen", false);
+
+		}
 		boolean is3gusef = preference.getBoolean("key_3guse", false);
 
 		if(is3gusef){
