@@ -6,11 +6,11 @@
     <string name="label_dataw">Disable data charge warning</string>
     <string name="sum_dataw">Disable data charge warning when you enable mobile data.</string>
     <string name="label_dataiconon">Disable data off notify</string>
-    <string name="sum_dataiconon">Disable data notify when you disable mobile data.(For Z1)</string>
+    <string name="sum_dataiconon">Disable data notify when you disable mobile data.(For Z1 4.2)</string>
     <string name="label_dataiconona">Disable data off notify</string>
     <string name="sum_dataiconona">Disable data notify when you disable mobile data.(For A)</string>
-    <string name="label_dataicon">Hide icon on data disabled</string>
-    <string name="sum_dataicon">Hide statusbar icon and notification which appears when you disable mobile data.</string>
+    <string name="label_dataicon">Hide icon on data state changed</string>
+    <string name="sum_dataicon">Hide statusbar icon and notification which appears when you enable/disable mobile data.</string>
     <string name="label_callrec">Enable call recording</string>
     <string name="sum_callrec">Enable call recording future.\nRecording button is in the menu of calling screen.</string>
     <string name="label_3guse">Show \"Use only 3G networks\"</string>

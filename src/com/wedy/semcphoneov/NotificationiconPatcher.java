@@ -28,15 +28,15 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 
 		if(isDataw){
 		
-			resparam.res.setReplacement("com.android.phone", "bool", "disable_charge_popups", modRes.fwd(R.bool.disable_charge_popups));
+			resparam.res.setReplacement("com.android.phone", "bool", "disable_charge_popups", true);
 		}
 
 		boolean isDataicon = preference.getBoolean("key_dataicon", false);
 
 		if(isDataicon){
 		
-			resparam.res.setReplacement("com.android.phone", "bool", "data_connection_except_mms_show_icon_when_disabled", modRes.fwd(R.bool.data_connection_except_mms_show_icon_when_disabled));
-			resparam.res.setReplacement("com.android.phone", "bool", "data_connection_except_mms_show_icon_when_enabled", modRes.fwd(R.bool.data_connection_except_mms_show_icon_when_enabled));
+			resparam.res.setReplacement("com.android.phone", "bool", "data_connection_except_mms_show_icon_when_disabled", false);
+			resparam.res.setReplacement("com.android.phone", "bool", "data_connection_except_mms_show_icon_when_enabled", false);
 		}
 		boolean isDataiconon = preference.getBoolean("key_dataiconon", false);
 
