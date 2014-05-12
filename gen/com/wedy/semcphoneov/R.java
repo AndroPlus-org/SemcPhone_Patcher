@@ -8,48 +8,59 @@
 package com.wedy.semcphoneov;
 
 public final class R {
+    public static final class array {
+        public static final int preset_greeting_displayname_list=0x7f050001;
+        public static final int preset_greeting_filename_list=0x7f050000;
+    }
     public static final class attr {
     }
     public static final class bool {
-        public static final int data_connection_except_mms_show_icon_when_disabled=0x7f040000;
-        public static final int data_connection_except_mms_show_icon_when_enabled=0x7f040001;
-        public static final int disable_charge_popups=0x7f040002;
-        public static final int enable_call_recording=0x7f040003;
-        public static final int enable_data_off_popup=0x7f040005;
-        public static final int use_3g_only=0x7f040004;
+        public static final int data_connection_except_mms_show_icon_when_disabled=0x7f060000;
+        public static final int data_connection_except_mms_show_icon_when_enabled=0x7f060001;
+        public static final int disable_charge_popups=0x7f060002;
+        public static final int enable_call_recording=0x7f060003;
+        public static final int enable_data_off_popup=0x7f060005;
+        public static final int use_3g_only=0x7f060004;
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
         public static final int ic_notify_button_bg=0x7f020001;
     }
+    public static final class raw {
+        public static final int phone_ans_mach_greeting_en=0x7f040000;
+        public static final int phone_ans_mach_greeting_ja=0x7f040001;
+    }
     public static final class string {
-        public static final int app_description=0x7f050001;
-        public static final int app_name=0x7f050000;
-        public static final int label_3guse=0x7f05000c;
-        public static final int label_ansmach=0x7f050012;
-        public static final int label_callend=0x7f050014;
-        public static final int label_callrec=0x7f05000a;
-        public static final int label_dataicon=0x7f050008;
-        public static final int label_dataiconon=0x7f050004;
-        public static final int label_dataiconona=0x7f050006;
-        public static final int label_dataw=0x7f050002;
-        public static final int label_prefmode=0x7f05000e;
-        public static final int label_prefmodeics=0x7f050010;
-        public static final int label_rebootaf=0x7f050016;
-        public static final int mar1=0x7f050019;
-        public static final int mar2=0x7f05001a;
-        public static final int mesum=0x7f050018;
-        public static final int nosum=0x7f050017;
-        public static final int sum_3guse=0x7f05000d;
-        public static final int sum_ansmach=0x7f050013;
-        public static final int sum_callend=0x7f050015;
-        public static final int sum_callrec=0x7f05000b;
-        public static final int sum_dataicon=0x7f050009;
-        public static final int sum_dataiconon=0x7f050005;
-        public static final int sum_dataiconona=0x7f050007;
-        public static final int sum_dataw=0x7f050003;
-        public static final int sum_prefmode=0x7f05000f;
-        public static final int sum_prefmodeics=0x7f050011;
+        public static final int app_description=0x7f070001;
+        public static final int app_name=0x7f070000;
+        public static final int label_3guse=0x7f07000c;
+        public static final int label_ansmach=0x7f070012;
+        public static final int label_callend=0x7f070014;
+        public static final int label_callrec=0x7f07000a;
+        public static final int label_dataicon=0x7f070008;
+        public static final int label_dataiconon=0x7f070004;
+        public static final int label_dataiconona=0x7f070006;
+        public static final int label_dataw=0x7f070002;
+        public static final int label_prefmode=0x7f07000e;
+        public static final int label_prefmodeics=0x7f070010;
+        public static final int label_rebootaf=0x7f070019;
+        public static final int label_volte=0x7f070016;
+        public static final int mar1=0x7f07001c;
+        public static final int mar2=0x7f07001d;
+        public static final int mesum=0x7f07001b;
+        public static final int nosum=0x7f07001a;
+        public static final int sum_3guse=0x7f07000d;
+        public static final int sum_ansmach=0x7f070013;
+        public static final int sum_callend=0x7f070015;
+        public static final int sum_callrec=0x7f07000b;
+        public static final int sum_dataicon=0x7f070009;
+        public static final int sum_dataiconon=0x7f070005;
+        public static final int sum_dataiconona=0x7f070007;
+        public static final int sum_dataw=0x7f070003;
+        public static final int sum_prefmode=0x7f07000f;
+        public static final int sum_prefmodeics=0x7f070011;
+        public static final int sum_volte=0x7f070017;
+        public static final int volte_toggle_title=0x7f070018;
     }
     public static final class xml {
         public static final int settings=0x7f030000;

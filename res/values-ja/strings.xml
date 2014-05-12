@@ -21,6 +21,8 @@
     <string name="sum_ansmach">伝言メモを使えるようにします。</string>
     <string name="label_callend">通話終了画面無効化</string>
     <string name="sum_callend">4.4の通話終了画面を無効化します。</string>
+    <string name="label_volte">VoLTEオプションを表示</string>
+    <string name="sum_volte">VoLTEオプションを通話設定に表示します。</string>
     
     <string name="label_prefmodeics">(ドコモ向け)ネットワークモード全開</string>
     <string name="sum_prefmodeics">*ドコモROMでは上は有効にせずこちらだけ有効にしてください*\nモバイルネットワーク設定でネットワークモードを全て表示するようにします。</string>

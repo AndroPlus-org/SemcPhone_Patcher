@@ -27,9 +27,9 @@
 	    android:summary="@string/sum_callrec"
 	    android:defaultValue="false" />
 	    <CheckBoxPreference
-	    android:key="key_ansmach"
-	    android:title="@string/label_ansmach"
-	    android:summary="@string/sum_ansmach"
+	    android:key="key_prefmode"
+	    android:title="@string/label_prefmode"
+	    android:summary="@string/sum_prefmode"
 	    android:defaultValue="false" />
 	    <CheckBoxPreference
 	    android:key="key_callend"
@@ -37,9 +37,14 @@
 	    android:summary="@string/sum_callend"
 	    android:defaultValue="false" />
 	    <CheckBoxPreference
-	    android:key="key_3guse"
-	    android:title="@string/label_3guse"
-	    android:summary="@string/sum_3guse"
+	    android:key="key_prefmode"
+	    android:title="@string/label_prefmode"
+	    android:summary="@string/sum_prefmode"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_volte"
+	    android:title="@string/label_volte"
+	    android:summary="@string/sum_volte"
 	    android:defaultValue="false" />
 	    <CheckBoxPreference
 	    android:key="key_prefmode"

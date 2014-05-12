@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preset_greeting_filename_list">
+        <item>@raw/phone_ans_mach_greeting_ja</item>
+        <item>@raw/phone_ans_mach_greeting_en</item>
+    </string-array>
+    <string-array name="preset_greeting_displayname_list">
+        <item>日本語</item>
+        <item>English</item>
+    </string-array>
+</resources>

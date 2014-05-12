@@ -23,6 +23,10 @@
     <string name="sum_ansmach">Enable Answering Machine future.</string>
     <string name="label_callend">Disable call ended screen</string>
     <string name="sum_callend">Disable call ended screen (for 4.4)</string>
+    <string name="label_volte">Show VoLTE option</string>
+    <string name="sum_volte">Show VoLTE option in call settings</string>
+    
+    <string name="volte_toggle_title">VoLTEを有効化</string>
     
     <string name="label_rebootaf">Note</string>
     <string name="nosum">You may need to reboot for changes to take effect.</string>

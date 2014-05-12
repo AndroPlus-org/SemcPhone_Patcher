@@ -1,6 +1,8 @@
 package com.wedy.semcphoneov;
 
 
+import java.util.Locale;
+
 import android.content.res.XModuleResources;
 import de.robv.android.xposed.IXposedHookInitPackageResources;
 import de.robv.android.xposed.IXposedHookZygoteInit;
@@ -88,7 +90,15 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 			resparam.res.setReplacement("com.android.phone", "bool", "config_enable_answering_machine", true);
 
 		}
+		boolean isVolte = preference.getBoolean("key_volte", false);
 		
+		if (Locale.JAPAN.equals(Locale.getDefault()) && isVolte){
+			resparam.res.setReplacement("com.android.phone", "bool", "config_enable_volte_toggle_setting", true);
+			resparam.res.setReplacement("com.android.phone", "string", "volte_toggle_title", modRes.fwd(R.string.volte_toggle_title));
+		}
+		else if(isVolte){
+			resparam.res.setReplacement("com.android.phone", "bool", "config_enable_volte_toggle_setting", true);
+		}
 		
 
 	}
