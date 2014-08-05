@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">索尼手机补丁</string>
+    <string name="app_description">启用通话录音和禁用数据通知,点击这里进行设置</string>
+    <string name="label_dataw">禁用充电数据警告</string>
+    <string name="sum_dataw">当您启用移动数据时禁用充电数据警告</string>
+    <string name="label_dataiconon">禁用移动数据关闭通知</string>
+    <string name="sum_dataiconon">禁用移动数据时禁用通知(For Z1 4.2)</string>
+    <string name="label_dataiconona">禁用移动数据关闭通知</string>
+    <string name="sum_dataiconona">禁用移动数据时禁用通知(For A)</string>
+    <string name="label_dataicon">更改移动数据状态下隐藏图标</string>
+    <string name="sum_dataicon">隐藏状态栏图标和通知，当您启用/禁用移动数据会出现</string>
+    <string name="label_callrec">开启通话录音</string>
+    <string name="sum_callrec">开启通话录音\n通话录音菜单按钮在通话界面</string>
+    <string name="label_3guse">显示\“仅使用3G网络\”</string>
+    <string name="sum_3guse">移动数据设置首选项只显示 使用3G</string>
+    <string name="label_prefmode">所有网络模式</string>
+    <string name="sum_prefmode">在移动数据设置显示所有网络模式</string>
+    <string name="label_prefmodeics">(For DoCoMo)所有网络模式</string>
+    <string name="sum_prefmodeics">*如果您使用的是DoCoMo的ROM* \n在移动数据设置显示所有网络模式</string>
+    <string name="label_ansmach">启用应答机</string>
+    <string name="sum_ansmach">启用未来应答机</string>
+    <string name="label_callend">禁止通话结束画面</string>
+    <string name="sum_callend">禁用呼叫结束画面（4.4）</string>
+    <string name="label_volte">显示VoLTE选项</string>
+    <string name="sum_volte">在通话设置显示VoLTE选项</string>
+    
+    <string name="volte_toggle_title">已启用VoLTE</string>
+    
+    <string name="label_rebootaf">注</string>
+    <string name="nosum">您可能需要重新启动以使更改生效</string>
+    <string name="mesum">"@WedyDQ10"</string>
+    
+    <string name="mar1">0,1,2,3,4,5,6,7,8,9,10,11</string>
+    <string name="mar2">0,1,2,3,4,5,6,7,8,9,10,11,12</string>
+</resources>
