@@ -5,8 +5,8 @@
     <string name="app_description">启用通话录音和禁用数据通知,点击这里进行设置</string>
     
     <string name="datac">移动数据</string>
-    <string name="label_dataw">禁用充电数据警告</string>
-    <string name="sum_dataw">当您启用移动数据时禁用充电数据警告</string>
+    <string name="label_dataw">禁用充电提示警告</string>
+    <string name="sum_dataw">当您启用移动数据时禁用充电提示警告</string>
     <string name="label_dataiconon">禁用移动数据关闭通知</string>
     <string name="sum_dataiconon">禁用移动数据时禁用通知(For Z1 4.2)</string>
     <string name="label_dataiconona">禁用移动数据关闭通知</string>
