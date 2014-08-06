@@ -4,10 +4,12 @@ package com.wedy.semcphoneov;
 import java.util.Locale;
 
 import android.content.res.XModuleResources;
+import android.view.View;
 import de.robv.android.xposed.IXposedHookInitPackageResources;
 import de.robv.android.xposed.IXposedHookZygoteInit;
 import de.robv.android.xposed.XSharedPreferences;
 import de.robv.android.xposed.callbacks.XC_InitPackageResources.InitPackageResourcesParam;
+import de.robv.android.xposed.callbacks.XC_LayoutInflated;
 
 public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHookInitPackageResources {
 	private static XSharedPreferences preference = null;
@@ -99,7 +101,30 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 		else if(isVolte){
 			resparam.res.setReplacement("com.android.phone", "bool", "config_enable_volte_toggle_setting", true);
 		}
-		
+		boolean isCamoff = preference.getBoolean("key_camoff", false);
+
+		if(isCamoff){
+			resparam.res.setReplacement("com.android.phone", "bool", "enable_camera_off_button_during_video_call", true);
+
+		}
+		boolean isVoonly = preference.getBoolean("key_voonly", false);
+
+		if(isVoonly){
+			resparam.res.setReplacement("com.android.phone", "bool", "enable_voice_only_answer_during_video_incoming_call", true);
+
+		}
+		boolean isNovobut = preference.getBoolean("key_novcbutton", false);
+
+		if(isNovobut){
+			resparam.res.hookLayout("com.android.phone", "layout", "somc_incallscreen_large", new XC_LayoutInflated() {
+			    @Override
+			    public void handleLayoutInflated(LayoutInflatedParam liparam) throws Throwable {
+			    	View clock = (View) liparam.view.findViewById(
+			    	liparam.res.getIdentifier("switchToVideoButton", "id", "com.android.phone"));
+			    	clock.setVisibility(View.GONE);
+			    }
+			    }); 
+		}
 
 	}
 

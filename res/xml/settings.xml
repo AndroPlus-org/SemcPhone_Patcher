@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
     	<Preference android:title="@string/label_rebootaf" android:key="mess" android:summary="@string/nosum" style="?android:preferenceInformationStyle" />
+    	<PreferenceCategory
+	android:key="data_category"
+	android:title="@string/datac" >
+	</PreferenceCategory>
 	<CheckBoxPreference
 	    android:key="key_dataw"
 	    android:title="@string/label_dataw"
@@ -22,14 +26,20 @@
 	    android:summary="@string/sum_dataiconona"
 	    android:defaultValue="false" />
 	    <CheckBoxPreference
-	    android:key="key_callrec"
-	    android:title="@string/label_callrec"
-	    android:summary="@string/sum_callrec"
-	    android:defaultValue="false" />
-	    <CheckBoxPreference
 	    android:key="key_prefmode"
 	    android:title="@string/label_prefmode"
 	    android:summary="@string/sum_prefmode"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference android:key="key_prefmodeics" android:title="@string/label_prefmodeics" android:summary="@string/sum_prefmodeics" android:defaultValue="false" />
+	    
+	    <PreferenceCategory
+	android:key="call_category"
+	android:title="@string/callc" >
+	</PreferenceCategory>
+	    <CheckBoxPreference
+	    android:key="key_callrec"
+	    android:title="@string/label_callrec"
+	    android:summary="@string/sum_callrec"
 	    android:defaultValue="false" />
 	    <CheckBoxPreference
 	    android:key="key_callend"
@@ -37,21 +47,25 @@
 	    android:summary="@string/sum_callend"
 	    android:defaultValue="false" />
 	    <CheckBoxPreference
-	    android:key="key_prefmode"
-	    android:title="@string/label_prefmode"
-	    android:summary="@string/sum_prefmode"
+	    android:key="key_camoff"
+	    android:title="@string/label_camoff"
+	    android:summary="@string/sum_camoff"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_voonly"
+	    android:title="@string/label_voonly"
+	    android:summary="@string/sum_voonly"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_novcbutton"
+	    android:title="@string/label_novcbutton"
+	    android:summary="@string/sum_novcbutton"
 	    android:defaultValue="false" />
 	    <CheckBoxPreference
 	    android:key="key_volte"
 	    android:title="@string/label_volte"
 	    android:summary="@string/sum_volte"
 	    android:defaultValue="false" />
-	    <CheckBoxPreference
-	    android:key="key_prefmode"
-	    android:title="@string/label_prefmode"
-	    android:summary="@string/sum_prefmode"
-	    android:defaultValue="false" />
-	    <CheckBoxPreference android:key="key_prefmodeics" android:title="@string/label_prefmodeics" android:summary="@string/sum_prefmodeics" android:defaultValue="false" />
 	    
 	
 	<Preference android:key="mes" android:title="@string/app_name" android:summary="@string/mesum">
