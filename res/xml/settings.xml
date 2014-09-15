@@ -30,7 +30,13 @@
 	    android:title="@string/label_prefmode"
 	    android:summary="@string/sum_prefmode"
 	    android:defaultValue="false" />
-	    <CheckBoxPreference android:key="key_prefmodeics" android:title="@string/label_prefmodeics" android:summary="@string/sum_prefmodeics" android:defaultValue="false" />
+	    <EditTextPreference 
+	    android:defaultValue="0,1,2,3,4,5,6,7,8,9,10,11" 
+	    android:key="key_prefedit" 
+	    android:title="@string/label_prefedit"
+	    android:summary="@string/sum_prefedit"
+	    android:dependency="key_prefmode"
+	    />
 	    
 	    <PreferenceCategory
 	android:key="call_category"
@@ -45,6 +51,13 @@
 	    android:key="key_callend"
 	    android:title="@string/label_callend"
 	    android:summary="@string/sum_callend"
+	    android:disableDependentsState="true"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_callend3"
+	    android:title="@string/label_callend3"
+	    android:summary="@string/sum_callend3"
+	    android:dependency="key_callend"
 	    android:defaultValue="false" />
 	    <CheckBoxPreference
 	    android:key="key_camoff"

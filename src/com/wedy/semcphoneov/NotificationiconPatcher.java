@@ -23,10 +23,12 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 
 	@Override
 	public void handleInitPackageResources(InitPackageResourcesParam resparam) throws Throwable {
-		if (!resparam.packageName.equals("com.android.phone"))
+		String s = preference.getString("key_prefedit", "0,1,2,3,4,5,6,7,8,9,10,11");
+		
+		if (!(resparam.packageName.equals("com.android.phone")||resparam.packageName.equals("com.android.settings")))
 			return;
 
-		
+		if (resparam.packageName.equals("com.android.phone")){
 		XModuleResources modRes = XModuleResources.createInstance(MODULE_PATH, resparam.res);
 		boolean isDataw = preference.getBoolean("key_dataw", false);
 
@@ -77,15 +79,9 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 		
 		boolean isPrefmodee = preference.getBoolean("key_prefmode", false);
 		if(isPrefmodee){
-			resparam.res.setReplacement("com.android.phone", "string", "preferred_network_mode_marshal", modRes.fwd(R.string.mar1));
+			resparam.res.setReplacement("com.android.phone", "string", "preferred_network_mode_marshal", s);
 		}
 		
-		boolean isPrefmodeics = preference.getBoolean("key_prefmodeics", false);
-
-		if(isPrefmodeics){
-			resparam.res.setReplacement("com.android.phone", "string", "preferred_network_mode_marshal", modRes.fwd(R.string.mar2));
-
-		}
 		boolean isAnsma = preference.getBoolean("key_ansmach", false);
 
 		if(isAnsma){
@@ -124,6 +120,17 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 			    	clock.setVisibility(View.GONE);
 			    }
 			    }); 
+		}
+		}
+		if (resparam.packageName.equals("com.android.incallui")){
+			boolean isCallend3 = preference.getBoolean("key_callend3", false);
+
+		if(isCallend3){
+		
+			resparam.res.setReplacement("com.android.incallui", "bool", "enable_call_ended_screen", false);
+
+		}
+
 		}
 
 	}
