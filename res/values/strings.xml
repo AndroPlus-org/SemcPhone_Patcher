@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name" translatable="false">SemcPhone Patcher</string>
-    <string name="app_description">Enable call recording and disable data notification. Tap here to configure settings.</string>
+    <string name="app_description">Change various hidden features for SemcPhone. Tap here to configure settings.</string>
     
     <string name="datac">Mobile Data</string>
     <string name="label_dataw">Disable data charge warning</string>

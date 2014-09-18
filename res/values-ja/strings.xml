@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">SemcPhone Patcher</string>
-    <string name="app_description">通話録音を有効にして、データ通信の注意ポップアップを無効化します。ここをタップすると設定が出来ます。</string>
+    <string name="app_description">SemcPhoneの隠し機能の変更などをします。ここをタップすると設定が出来ます。</string>
     
     <string name="datac">データ通信</string>
     <string name="label_dataw">データ通信の注意を無効化</string>
