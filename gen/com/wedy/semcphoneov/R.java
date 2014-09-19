@@ -48,12 +48,9 @@ public final class R {
         public static final int label_novcbutton=0x7f07001f;
         public static final int label_prefedit=0x7f07000e;
         public static final int label_prefmode=0x7f07000c;
-        public static final int label_prefmodeics=0x7f070025;
         public static final int label_rebootaf=0x7f070021;
         public static final int label_volte=0x7f070019;
         public static final int label_voonly=0x7f07001d;
-        public static final int mar1=0x7f070028;
-        public static final int mar2=0x7f070029;
         public static final int mesum=0x7f070023;
         public static final int nosum=0x7f070022;
         public static final int sum_3guse=0x7f07000b;
@@ -69,10 +66,9 @@ public final class R {
         public static final int sum_novcbutton=0x7f070020;
         public static final int sum_prefedit=0x7f07000f;
         public static final int sum_prefmode=0x7f07000d;
-        public static final int sum_prefmodeics=0x7f070026;
         public static final int sum_volte=0x7f07001a;
         public static final int sum_voonly=0x7f07001e;
-        public static final int volte_toggle_title=0x7f070027;
+        public static final int volte_toggle_title=0x7f070025;
     }
     public static final class xml {
         public static final int settings=0x7f030000;
