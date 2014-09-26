@@ -33,6 +33,8 @@
     <string name="sum_voonly">ビデオコール着信時に音声のみで受話するオプションを表示します。</string>
     <string name="label_novcbutton">ビデオコールボタンを隠す</string>
     <string name="sum_novcbutton">ビデオコールボタンを非表示にします。</string>
+    <string name="label_rejectmsg">着信オプションを隠す</string>
+    <string name="sum_rejectmsg">着信オプション(拒否してメッセージ送信など)を出すハンドルを隠します。</string>
     <string name="label_rebootaf">注意</string>
     <string name="nosum">変更は再起動後に反映されます。\n一部機種によって動作しないことがあります。</string>
     <string name="mesum">"@WedyDQ10"</string>

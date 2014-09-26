@@ -121,7 +121,21 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 			    }
 			    }); 
 		}
+		boolean isRejectmsg = preference.getBoolean("key_rejectmsg", false);
+
+		if(isRejectmsg){
+			resparam.res.setReplacement("com.android.phone", "dimen", "somc_incallscreen_reject_msgs_drawer_height", modRes.fwd(R.dimen.somc_incallscreen_reject_msgs_drawer_height));
+			resparam.res.setReplacement("com.android.phone", "dimen", "incall_screen_call_large_Header_height", modRes.fwd(R.dimen.incall_screen_call_large_Header_height));
+			resparam.res.hookLayout("com.android.phone", "layout", "somc_incallscreen_reject_msgs_list_item", new XC_LayoutInflated() {
+			    @Override
+			    public void handleLayoutInflated(LayoutInflatedParam liparam) throws Throwable {
+			    	liparam.view.findViewById(liparam.res.getIdentifier("text", "id", "com.android.phone")).setVisibility(View.GONE);
+			    }
+			    }); 
 		}
+		
+		}
+		// Z3 InCallUI.apk
 		if (resparam.packageName.equals("com.android.incallui")){
 			boolean isCallend3 = preference.getBoolean("key_callend3", false);
 

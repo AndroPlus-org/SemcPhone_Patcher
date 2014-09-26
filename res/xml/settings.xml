@@ -60,6 +60,11 @@
 	    android:dependency="key_callend"
 	    android:defaultValue="false" />
 	    <CheckBoxPreference
+	    android:key="key_rejectmsg"
+	    android:title="@string/label_rejectmsg"
+	    android:summary="@string/sum_rejectmsg"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
 	    android:key="key_camoff"
 	    android:title="@string/label_camoff"
 	    android:summary="@string/sum_camoff"
