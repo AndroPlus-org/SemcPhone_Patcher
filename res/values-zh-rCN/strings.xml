@@ -15,7 +15,7 @@
     <string name="label_prefmode">更改网络模式</string>
     <string name="sum_prefmode">在移动数据设置显示所有网络模式</string>
     <string name="label_prefedit">显示指定网络模式</string>
-    <string name="sum_prefedit">用数字来设置显示指定网络模式，默认值是“0,1,2,3,4,5,6,7,8,9,10,11”。如果你使用的是carrirs或DoCoMo您应该添加12或者其它数字</string>
+    <string name="sum_prefedit">用数字来设置显示指定网络模式，默认值是“0,1,2,3,4,5,6,7,8,9,10,11”。如果你使用的是Carrirs或DoCoMo您应该添加12或者其它数字</string>
     <string name="callc">通话设置</string>
     <string name="label_callrec">开启通话录音</string>
     <string name="sum_callrec">开启通话录音\n通话录音菜单按钮显示在通话界面</string>
@@ -33,6 +33,8 @@
     <string name="sum_voonly">来电视频通话中显示声音仅回答选项</string>
     <string name="label_novcbutton">隐藏视频通话按钮</string>
     <string name="sum_novcbutton">在呼叫屏幕隐藏视频通话按钮</string>
+	<string name="label_rejectmsg">隐藏通过信息拒绝通话</string>
+	<string name="sum_rejectmsg">在接听界面隐藏拒绝信息按钮</string>
     <string name="label_rebootaf">注意</string>
     <string name="nosum">您可能需要重新启动以使更改生效</string>
     <string name="mesum">"@WedyDQ10"</string>
