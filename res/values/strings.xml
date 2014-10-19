@@ -35,6 +35,8 @@
     <string name="sum_novcbutton">Hide video call button in call screen.</string>
     <string name="label_rejectmsg">Hide reject call with message</string>
     <string name="sum_rejectmsg">Hide reject call with message button and handle.</string>
+    <string name="label_rejectmsgz3">Hide reject call with message (InCallUI)</string>
+    <string name="sum_rejectmsgz3">Hide reject call with message button and handle. (Use this option if you are using device which does not have SemcPhone such as Z3)</string>
     <string name="label_rebootaf">Note</string>
     <string name="nosum">You may need to reboot for changes to take effect.</string>
     <string name="mesum">"@WedyDQ10"</string>

@@ -23,7 +23,9 @@ public final class R {
         public static final int use_3g_only=0x7f060004;
     }
     public static final class dimen {
+        public static final int call_large_header_height=0x7f070002;
         public static final int incall_screen_call_large_Header_height=0x7f070000;
+        public static final int reject_msgs_drawer_height=0x7f070003;
         public static final int somc_incallscreen_reject_msgs_drawer_height=0x7f070001;
     }
     public static final class drawable {
@@ -36,7 +38,7 @@ public final class R {
     }
     public static final class string {
         public static final int app_description=0x7f080000;
-        public static final int app_name=0x7f080026;
+        public static final int app_name=0x7f080028;
         public static final int callc=0x7f080010;
         public static final int datac=0x7f080001;
         public static final int label_3guse=0x7f08000a;
@@ -52,12 +54,13 @@ public final class R {
         public static final int label_novcbutton=0x7f08001f;
         public static final int label_prefedit=0x7f08000e;
         public static final int label_prefmode=0x7f08000c;
-        public static final int label_rebootaf=0x7f080023;
+        public static final int label_rebootaf=0x7f080025;
         public static final int label_rejectmsg=0x7f080021;
+        public static final int label_rejectmsgz3=0x7f080023;
         public static final int label_volte=0x7f080019;
         public static final int label_voonly=0x7f08001d;
-        public static final int mesum=0x7f080025;
-        public static final int nosum=0x7f080024;
+        public static final int mesum=0x7f080027;
+        public static final int nosum=0x7f080026;
         public static final int sum_3guse=0x7f08000b;
         public static final int sum_ansmach=0x7f080014;
         public static final int sum_callend=0x7f080016;
@@ -72,9 +75,10 @@ public final class R {
         public static final int sum_prefedit=0x7f08000f;
         public static final int sum_prefmode=0x7f08000d;
         public static final int sum_rejectmsg=0x7f080022;
+        public static final int sum_rejectmsgz3=0x7f080024;
         public static final int sum_volte=0x7f08001a;
         public static final int sum_voonly=0x7f08001e;
-        public static final int volte_toggle_title=0x7f080027;
+        public static final int volte_toggle_title=0x7f080029;
     }
     public static final class xml {
         public static final int settings=0x7f030000;

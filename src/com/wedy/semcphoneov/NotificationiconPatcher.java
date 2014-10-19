@@ -158,9 +158,11 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 			    }); 
 		}
 		
-		}
+		}//End
+		
 		// Z3 InCallUI.apk
 		if (resparam.packageName.equals("com.android.incallui")){
+		XModuleResources modRes = XModuleResources.createInstance(MODULE_PATH, resparam.res);
 		
 		// Disable call ended screen
 		boolean isCallend3 = preference.getBoolean("key_callend3", false);
@@ -170,8 +172,22 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 			resparam.res.setReplacement("com.android.incallui", "bool", "enable_call_ended_screen", false);
 
 		}
+		
+		// Hide reject call with message
+		boolean isRejectmsgz3 = preference.getBoolean("key_rejectmsgz3", false);
 
+		if(isRejectmsgz3){
+			resparam.res.setReplacement("com.android.incallui", "dimen", "reject_msgs_drawer_height", modRes.fwd(R.dimen.reject_msgs_drawer_height));
+			resparam.res.setReplacement("com.android.incallui", "dimen", "call_large_header_height", modRes.fwd(R.dimen.call_large_header_height));
+			resparam.res.hookLayout("com.android.incallui", "layout", "somc_reject_with_msgs_list_item", new XC_LayoutInflated() {
+			    @Override
+			    public void handleLayoutInflated(LayoutInflatedParam liparam) throws Throwable {
+			    	liparam.view.findViewById(liparam.res.getIdentifier("text", "id", "com.android.incallui")).setVisibility(View.GONE);
+			    }
+			    }); 
 		}
+
+		}//End
 
 	}
 

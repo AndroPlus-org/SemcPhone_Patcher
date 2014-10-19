@@ -35,6 +35,8 @@
     <string name="sum_novcbutton">ビデオコールボタンを非表示にします。</string>
     <string name="label_rejectmsg">着信オプションを隠す</string>
     <string name="sum_rejectmsg">着信オプション(拒否してメッセージ送信など)を出すハンドルを隠します。</string>
+    <string name="label_rejectmsgz3">着信オプションを隠す (InCallUI)</string>
+    <string name="sum_rejectmsgz3">着信オプション(拒否してメッセージ送信など)を出すハンドルを隠します。(Z3のようにSemcPhone.apkがない端末を使っている場合は、このオプションを有効にしてください。)</string>
     <string name="label_rebootaf">注意</string>
     <string name="nosum">変更は再起動後に反映されます。\n一部機種によって動作しないことがあります。</string>
     <string name="mesum">"@WedyDQ10"</string>
