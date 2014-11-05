@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="datac">Transmisja danych</string>
+    <string name="label_dataw">Wyłącz ostrzeżenie o opłatach transmisji danych</string>
+    <string name="label_prefmode">Zmień tryb sieci</string>
+    <string name="label_callrec">Włącz nagrywanie rozmów</string>
+    <string name="label_ansmach">Włącz Automatyczną Sekretarkę</string>
+</resources>

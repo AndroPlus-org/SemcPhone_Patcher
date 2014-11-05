@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_description">Change various hidden features for SemcPhone. Tap here to configure settings.</string>
+    <string name="datac">Mobile Data</string>
+    <string name="label_dataw">Disable data charge warning</string>
+    <string name="sum_dataw">Disable data charge warning when you enable mobile data.</string>
+    <string name="label_dataiconon">Disable data off notify</string>
+    <string name="sum_dataiconon">Disable data notify when you disable mobile data.(For Z1 4.2)</string>
+    <string name="label_dataiconona">Disable data off notify</string>
+    <string name="sum_dataiconona">Disable data notify when you disable mobile data.(For A)</string>
+    <string name="label_dataicon">Hide icon on data state changed</string>
+    <string name="sum_dataicon">Hide statusbar icon and notification which appears when you enable/disable mobile data.</string>
+    <string name="label_3guse">Show \"Use only 3G networks\"</string>
+    <string name="sum_3guse">Show preference to use 3G only in mobile data settings.</string>
+    <string name="label_prefmode">Change network mode</string>
+    <string name="sum_prefmode">Show all network mode you want to show in mobile data settings.</string>
+    <string name="label_prefedit">Specify network mode to show</string>
+    <string name="sum_prefedit">Specify network mode to show in settings with numbers. Default value is "0,1,2,3,4,5,6,7,8,9,10,11". You should add 12 or something if you are using carrirs such as docomo.</string>
+    <string name="callc">Call</string>
+    <string name="label_callrec">Enable call recording</string>
+    <string name="sum_callrec">Enable call recording future.\nRecording button is in the menu of calling screen.</string>
+    <string name="label_ansmach">Enable Answering Machine</string>
+    <string name="sum_ansmach">Enable Answering Machine future.</string>
+    <string name="label_callend">Disable call ended screen (SemcPhone)</string>
+    <string name="sum_callend">Disable call ended screen</string>
+    <string name="label_callend3">Disable call ended screen (InCallUI)</string>
+    <string name="sum_callend3">Disable call ended screen (Use this option if you are using device which does not have SemcPhone such as Z3)</string>
+    <string name="label_volte">Show VoLTE option</string>
+    <string name="sum_volte">Show VoLTE option in call settings</string>
+    <string name="label_camoff">Show turn off camera option</string>
+    <string name="sum_camoff">Show turn off camera option in video call.</string>
+    <string name="label_voonly">Show voice only answer option</string>
+    <string name="sum_voonly">Show voice only answer option during incoming video call.</string>
+    <string name="label_novcbutton">Hide video call button</string>
+    <string name="sum_novcbutton">Hide video call button in call screen.</string>
+    <string name="label_rejectmsg">Hide reject call with message</string>
+    <string name="sum_rejectmsg">Hide reject call with message button and handle.</string>
+    <string name="label_rejectmsgz3">Hide reject call with message (InCallUI)</string>
+    <string name="sum_rejectmsgz3">Hide reject call with message button and handle. (Use this option if you are using device which does not have SemcPhone such as Z3)</string>
+    <string name="sum_rejectmsge1">Hide reject call with message button and handle. (Use this option instead of above one if you are using non-flagship device such as E1 Dual)</string>
+    <string name="soundc">Sound</string>
+    <string name="label_soundeh">Enable old sound settings</string>
+    <string name="sum_soundeh">"Enable xLOUD™, Clear Phase™ and Clear Stereo."</string>
+    <string name="label_rebootaf">Note</string>
+    <string name="nosum">You may need to reboot for changes to take effect.</string>
+    <string name="mesum">"@WedyDQ10"</string>
+</resources>

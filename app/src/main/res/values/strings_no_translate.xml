@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">XPhonePlus</string>
+
+    <string name="volte_toggle_title" translatable="false">VoLTEを有効化</string>
+
+</resources>

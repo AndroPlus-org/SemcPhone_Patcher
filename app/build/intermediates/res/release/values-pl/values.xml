@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/myuser/document/GitHub/SemcPhone_Patcher/app/src/main/res/values-pl/strings.xml -->
+    <eat-comment/>
+    <string name="datac">Transmisja danych</string>
+    <string name="label_ansmach">Włącz Automatyczną Sekretarkę</string>
+    <string name="label_callrec">Włącz nagrywanie rozmów</string>
+    <string name="label_dataw">Wyłącz ostrzeżenie o opłatach transmisji danych</string>
+    <string name="label_prefmode">Zmień tryb sieci</string>
+</resources>
