@@ -71,12 +71,12 @@
 	    android:summary="@string/sum_rejectmsgz3"
 	    android:dependency="key_rejectmsg"
 	    android:defaultValue="false" />
-	    <!--<CheckBoxPreference
+	    <CheckBoxPreference
 	    android:key="key_rejectmsge1"
 	    android:title="@string/label_rejectmsgz3"
 	    android:summary="@string/sum_rejectmsge1"
 	    android:dependency="key_rejectmsg"
-	    android:defaultValue="false" /> -->
+	    android:defaultValue="false" />
 	    <CheckBoxPreference
 	    android:key="key_camoff"
 	    android:title="@string/label_camoff"

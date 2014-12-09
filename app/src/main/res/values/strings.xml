@@ -37,7 +37,7 @@
     <string name="sum_rejectmsg">Hide reject call with message button and handle.</string>
     <string name="label_rejectmsgz3">Hide reject call with message (InCallUI)</string>
     <string name="sum_rejectmsgz3">Hide reject call with message button and handle. (Use this option if you are using device which does not have SemcPhone such as Z3)</string>
-    <string name="sum_rejectmsge1">Hide reject call with message button and handle. (Use this option instead of above one if you are using non-flagship device such as E1 Dual)</string>
+    <string name="sum_rejectmsge1">Hide reject call with message button and handle. (Use this option instead of above one if you are using non-flagship device such as E1 and E1 Dual)</string>
     <string name="soundc">Sound</string>
     <string name="label_soundeh">Enable old sound settings</string>
     <string name="sum_soundeh">"Enable xLOUD™, Clear Phase™ and Clear Stereo."</string>

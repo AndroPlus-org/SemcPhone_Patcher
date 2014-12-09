@@ -1,10 +1,11 @@
 package com.wedy.semcphoneov;
 
 
-import java.util.Locale;
-
 import android.content.res.XModuleResources;
 import android.view.View;
+
+import java.util.Locale;
+
 import de.robv.android.xposed.IXposedHookInitPackageResources;
 import de.robv.android.xposed.IXposedHookZygoteInit;
 import de.robv.android.xposed.XSharedPreferences;
@@ -158,7 +159,15 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 			    }); 
 		}
 		
+		// Hide reject call with message for E1
+		boolean isRejectmsge1 = preference.getBoolean("key_rejectmsge1", false);
+
+		if(isRejectmsge1){
+			resparam.res.setReplacement("com.android.phone", "bool", "reject_msg_list_disabled_when_call_waiting", true);
+		}
+		
 		}//End
+		
 		
 		// Z3 InCallUI.apk
 		if (resparam.packageName.equals("com.android.incallui")){
@@ -185,19 +194,6 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 			    	liparam.view.findViewById(liparam.res.getIdentifier("text", "id", "com.android.incallui")).setVisibility(View.GONE);
 			    }
 			    }); */
-		}
-		
-		// Hide reject call with message
-		boolean isRejectmsge1 = preference.getBoolean("key_rejectmsge1", false);
-
-		if(isRejectmsge1){
-			resparam.res.hookLayout("com.android.incallui", "layout", "semc_answer_fragment", new XC_LayoutInflated() {
-			    @Override
-			    public void handleLayoutInflated(LayoutInflatedParam liparam) throws Throwable {
-			    	liparam.view.findViewById(liparam.res.getIdentifier("handleArrow", "id", "com.android.incallui")).setVisibility(View.GONE);
-			    	liparam.view.findViewById(liparam.res.getIdentifier("handleText", "id", "com.android.incallui")).setVisibility(View.GONE);
-			    }
-			    });
 		}
 
 		}//End
