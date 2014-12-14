@@ -107,12 +107,11 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 		// Show VoLTE option
 		boolean isVolte = preference.getBoolean("key_volte", false);
 		
-		if (Locale.JAPAN.equals(Locale.getDefault()) && isVolte){
+		if(isVolte){
 			resparam.res.setReplacement("com.android.phone", "bool", "config_enable_volte_toggle_setting", true);
-			resparam.res.setReplacement("com.android.phone", "string", "volte_toggle_title", modRes.fwd(R.string.volte_toggle_title));
-		}
-		else if(isVolte){
-			resparam.res.setReplacement("com.android.phone", "bool", "config_enable_volte_toggle_setting", true);
+			resparam.res.setReplacement("com.android.phone", "bool", "config_enable_volte_default_value", true);
+			resparam.res.setReplacement("com.android.phone", "bool", "config_volte_control_modem_policy", true);
+			resparam.res.setReplacement("com.android.phone", "bool", "config_volte_modem_policy_follow_mobile_data_setting", true);
 		}
 		
 		// Show turn off camera option
